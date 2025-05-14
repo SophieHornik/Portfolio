@@ -1,0 +1,12 @@
+body{
+  background-color:#ff2faf;
+  /*#ff66c4*/
+}
+.cover{
+ background-image: url("cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  background-size: contain;
+  max-width:;
+}

@@ -1,6 +1,10 @@
 body{
   background-color:#ff2faf;
-  /*#ff66c4*/
+  
+  /*#ffc4c4*/
+}
+main{
+  align-items: center;
 }
 .cover{
  background-image: url("cover.png");
@@ -8,5 +12,7 @@ body{
   background-position: center;
   min-height: 100vh;
   background-size: contain;
-  max-width:;
+    border: 7px solid rgb(255, 255, 255);
+    max-width: 650px;
+    background-color:white ;
 }

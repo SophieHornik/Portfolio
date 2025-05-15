@@ -11,8 +11,40 @@ main{
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
-  background-size: contain;
+  background-size: cover;
     border: 7px solid rgb(255, 255, 255);
-    max-width: 650px;
+    max-width: 740px;
     background-color:white ;
+    color: rgb(255, 255, 255);
+}
+.smallText{
+  color: rgb(247, 247, 247);
+  font-size: 20px;
+  text-align: left;
+  margin-top: 50%;
+   font-family: "Barlow Condensed"
+}
+.smallerText{
+  font-size: 15px;
+}
+.barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.smallText2{
+  color: rgb(247, 247, 247);
+  font-size: 20px;
+  text-align: left;
+  margin-top: 70%;
+   font-family: "Barlow Condensed"
+}
+.smallerText2{
+  font-size: 15px;
 }

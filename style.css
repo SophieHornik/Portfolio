@@ -17,6 +17,7 @@ main{
     width: 100%;
     background-color: #ffc4c4;
     color: rgb(255, 255, 255);
+     text-align: center;
 }
 @media (max-width: 768px) {
   .cover {
@@ -58,8 +59,19 @@ main{
 .smallerText2{
   font-size: 15px;
 }
+
+#explore{
+   font-family: "Barlow Condensed";
+    font-size: 100px;
+    
+}
+#explore:hover{
+   font-family: "Barlow Condensed";
+    font-size: 100px;
+    color: #ff2faf;
+}
 @media (max-width: 768px) {
   .smallText {
     font-size: 16px;      /* Only applies to mobile screens */
     margin-top: 70%;
-  }
+  } }

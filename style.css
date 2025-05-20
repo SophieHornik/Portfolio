@@ -3,6 +3,9 @@ body{
   
   /*#ffc4c4*/
 }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 main{
   align-items: center;
 }
@@ -13,11 +16,16 @@ main{
   min-height: 100vh;
   background-size: contain;
     border: 7px solid rgb(255, 255, 255);
-    max-width: 740px;
-    width: 100%;
-    background-color: #ffc4c4;
+    max-width: 690px;
+    padding-left: 0px;
+    background-color: #fcc0c5;
     color: rgb(255, 255, 255);
      text-align: center;
+}
+.exp{
+  background-color: transparent;
+    border: 0px solid rgb(255, 255, 255);
+    color: white;
 }
 @media (max-width: 768px) {
   .cover {
@@ -32,7 +40,7 @@ main{
   font-size: 20px;
   text-align: left;
   margin-top: 50%;
-   font-family: "Barlow Condensed"
+   font-family: "Barlow Condensed";
 }
 .smallerText{
   font-size: 15px;
@@ -63,6 +71,7 @@ main{
 #explore{
    font-family: "Barlow Condensed";
     font-size: 100px;
+     transition: color 0.5s;
     
 }
 #explore:hover{
@@ -75,3 +84,78 @@ main{
     font-size: 16px;      /* Only applies to mobile screens */
     margin-top: 70%;
   } }
+.page1{
+
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  background-size: contain;
+    border: 7px solid rgb(255, 255, 255);
+    max-width: 690px;
+    padding-left: 0px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+.container {
+padding: 40px;
+max-width: 1000px;
+margin: auto;
+}
+
+.title {
+color:#ff2faf;
+font-size: 36px;
+margin-bottom: 40px;
+}
+
+.page-list {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.page-item {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.page-number {
+color:#ff2faf;
+font-size: 24px;
+width: 30px;
+}
+
+.page-text {
+flex: 1;
+font-size: 16px;
+line-height: 1.4;
+}
+
+.page-item img {
+width: 120px;
+height: auto;
+border-radius: 4px;
+object-fit: cover;
+}
+
+  .list{
+    text-align: left;
+  }
+  .number{
+      position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  font-size: 2rem;
+  color:#ff2faf;
+  }
+  @media (max-width: 768px) {
+  .page1 {
+    background-size: contain;
+    background-color: #000000;
+    border: none;
+  }

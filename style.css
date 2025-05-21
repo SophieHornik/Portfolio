@@ -135,11 +135,14 @@ line-height: 1.4;
 }
 
 .page-item img {
-width: 120px;
-height: auto;
-border-radius: 4px;
-object-fit: cover;
+  width: 180px; /* was 120px */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  image-rendering: auto; /* ensures high-quality rendering */
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15); /* optional: adds slight glow */
 }
+
 
   .list{
     text-align: left;
@@ -153,6 +156,99 @@ object-fit: cover;
   font-size: 2rem;
   color:#ff2faf;
   }
+  #pages{
+    text-decoration: none;
+    color: white;
+         transition: color 0.5s;
+  }
+  #pages:hover{
+ color:#ff2faf;
+  }
+  .header {
+position: relative;
+}
+
+.top-image {
+width: 100%;
+height: auto;
+}
+
+.page-title {
+position: absolute;
+top: 20px;
+right: 30px;
+color: #ff2faf;
+font-size: 24px;
+font-weight: bold;
+ transition: color 0.5s;
+}
+
+.page-title:hover {
+position: absolute;
+top: 20px;
+right: 30px;
+color:  #fcc0c5;
+font-size: 24px;
+font-weight: bold;
+ transition: color 0.5s;
+}
+.about-section {
+padding: 40px 20px;
+}
+
+.about-section h2 {
+color: #ff2faf;
+font-size: 36px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.content {
+display: flex;
+flex-direction: row;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.sidebar {
+width: 30%;
+padding-right: 20px;
+}
+
+.side-img {
+width: 100%;
+margin-bottom: 20px;
+border-radius: 8px;
+}
+
+.info {
+width: 70%;
+color: #000000;
+margin-top: 75px;
+}
+
+.block {
+margin-bottom: 30px;
+}
+
+.pink {
+color: #ff2faf;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.abt{
+background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  background-size: contain;
+    border: 7px solid rgb(255, 255, 255);
+    max-width: 690px;
+    padding-left: 0px;
+    color: rgb(255, 255, 255);
+     text-align: center;
+}
+
   @media (max-width: 768px) {
   .page1 {
     background-size: contain;

@@ -1,0 +1,38 @@
+
+h1 {
+color:#ff2faf;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+}
+
+.tribute-text p {
+margin-bottom: 15px;
+font-size: 16px;
+line-height: 1.5;
+color: black;
+}
+
+.img-fluid {
+border-radius: 8px;
+}
+
+.photo-row {
+margin-bottom: 15px;
+}
+.nav-buttons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+ margin-top: 20px;
+}
+.corner-number {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1.5rem;
+  color: black;
+  padding: 0.5rem;
+}

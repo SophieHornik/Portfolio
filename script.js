@@ -175,7 +175,7 @@
                     const animation = animations[index % 4];
                    
                     return `
-                        <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="col-2">
                             <div class="project-card"
                                  data-aos="${animation}"
                                  data-aos-delay="${index * 100}"

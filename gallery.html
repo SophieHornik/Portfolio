@@ -16,6 +16,8 @@
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
   <!--fonts->
    
@@ -31,8 +33,34 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="justify-content-center abt">
-         
-
+          <a href="pages.html" id="pages2"><h1 class="page-title">PAGES</h1></a>
+ <div id="app">
+      <div class="container-fluid">
+          <div class="container">
+              <h1 class="main-title" data-aos="fade-down" data-aos-duration="1000">
+                  My Projects
+              </h1>
+              
+              <div class="project-grid">
+                  <div class="row g-4">
+                      <div class="col-12 col-sm-6 col-lg-3" v-for="(project, index) in projects" :key="index">
+                          <div class="project-card" 
+                               :data-aos="getAosAnimation(index)"
+                               :data-aos-delay="index * 100"
+                               data-aos-duration="800">
+                              <img :src="project.image" :alt="project.title" class="project-image">
+                              <div class="tech-badge">{{ project.tech }}</div>
+                              <div class="project-overlay">
+                                  <h5>{{ project.title }}</h5>
+                                  <p>{{ project.description }}</p>
+                                  <a :href="project.url" target="_blank" class="open-project-btn" @click.stop>
+                                      Open Project
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
 <div class="corner-number">4</div>
 <div class="nav-buttons">

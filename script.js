@@ -219,20 +219,5 @@
                 0%, 100% { transform: translateY(0px); }
                 50% { transform: translateY(-5px); }
             }
-        `;
-        document.head.appendChild(style);
-         document.querySelectorAll('.nav-btn').forEach(btn => {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault(); // stop immediate navigation
-      const targetUrl = this.getAttribute('data-target');
-      const pageTurn = document.querySelector('.page-turn');
-
-      // Start animation
-      pageTurn.classList.add('active');
-
-      // Navigate after animation completes
-      setTimeout(() => {
-        window.location.href = targetUrl;
-      }, 600); // match the CSS transition duration
-    });
-  });
+        
+      

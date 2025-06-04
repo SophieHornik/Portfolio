@@ -1,117 +1,104 @@
   // Project data
         const projects = [
-            {
-                title: "E-Commerce Platform",
-                description: "Full-stack online shopping experience with payment integration",
-                tech: "Vue.js",
-                image: "/api/placeholder/300/200",
-                url: "https://github.com"
+           {
+                title: "Work Based Learning Project (1) (Partner)",
+                description: "Senior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "web.png",
+                url: "https://www.mrhsteched.com/pages/MRHS_WDPP/index.html"
+            },
+             {
+                title: "UT Austin Website",
+                description: "Senior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "austin.png",
+                url: "https://sophiehornik.github.io/College-Project/"
             },
             {
-                title: "Task Manager",
-                description: "Collaborative project management tool with real-time updates",
-                tech: "React",
-                image: "/api/placeholder/300/200",
-                url: "https://trello.com"
+                title: "Work Based Learning Project (2)",
+                description: "Senior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "WBL.png",
+                url: "https://sophiehornik.github.io/WBLP/"
             },
             {
-                title: "Weather Dashboard",
-                description: "Interactive weather forecasting application with maps",
-                tech: "JS",
-                image: "/api/placeholder/300/200",
-                url: "https://weather.com"
+                title: "Little Bird Toy Shop",
+                description: "Junior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "littlebird.png",
+                url: "https://sophiehornik.github.io/LittleBirdSophieHornik/"
             },
             {
-                title: "Portfolio Website",
-                description: "Responsive personal portfolio showcasing my work",
-                tech: "HTML/CSS",
-                image: "/api/placeholder/300/200",
-                url: "https://codepen.io"
+                title: "Trunk or Treat",
+                description: "Senior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "hallo.png",
+                url: "https://sophiehornik.github.io/Trunk-or-treat/"
             },
             {
-                title: "Chat Application",
-                description: "Real-time messaging platform with room functionality",
-                tech: "Socket.io",
-                image: "/api/placeholder/300/200",
-                url: "https://discord.com"
+                title: "New Jersey Institute of Technology Slideshow",
+                description: "Senior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "NJITss.png",
+                url: "https://sophiehornik.github.io/NJIT-project/"
             },
             {
-                title: "Blog CMS",
-                description: "Content management system for blogging with admin panel",
-                tech: "Node.js",
-                image: "/api/placeholder/300/200",
-                url: "https://medium.com"
+                title: "AJAX Tutorial Site",
+                description: "Senior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "AJAX.png",
+                url: "https://sophiehornik.github.io/AJAX-Tutorial-Site/"
             },
             {
-                title: "Fitness Tracker",
-                description: "Mobile-responsive app for tracking workouts and progress",
-                tech: "PWA",
-                image: "/api/placeholder/300/200",
-                url: "https://myfitnesspal.com"
+                title: "New Jersey Institute of Technology Movie Posters Project",
+                description: "Senior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "movies.png",
+                url: "https://sophiehornik.github.io/NJIT-3_StarterFiles/"
             },
             {
-                title: "Recipe Finder",
-                description: "Search and save your favorite recipes with meal planning",
-                tech: "API",
-                image: "/api/placeholder/300/200",
-                url: "https://allrecipes.com"
+                title: "Vue Mastery Site",
+                description: "Senior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "vue.png",
+                url: "https://sophiehornik.github.io/0_Vue_Mastery_Tutorial_Starter/"
             },
             {
-                title: "Budget Tracker",
-                description: "Personal finance management with expense categorization",
-                tech: "Chart.js",
-                image: "/api/placeholder/300/200",
-                url: "https://mint.com"
+                title: "Super Team Website",
+                description: "Junior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "teams.png",
+                url: "https://sophiehornik.github.io/mayMonthly/"
             },
             {
-                title: "Learning Platform",
-                description: "Online course platform with progress tracking",
-                tech: "Vue.js",
-                image: "/api/placeholder/300/200",
-                url: "https://coursera.org"
+                title: "Sophomore Portfolio",
+                description: "Sophomore Year",
+                tech: "HTML,CSS,Bootstrap",
+                image: "yr1.png",
+                url: "https://congenial-spork-r4gv6p6xpjr7fpxp9-5500.app.github.dev/index.html"
             },
             {
-                title: "Social Media App",
-                description: "Mini social network with posts, likes, and comments",
-                tech: "MongoDB",
-                image: "/api/placeholder/300/200",
-                url: "https://twitter.com"
+                title: "On My Birthday Website",
+                description: "Junior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "birthday.png",
+                url: "https://sophiehornik.github.io/birthday-site/"
             },
             {
-                title: "Game Center",
-                description: "Collection of browser-based mini-games and puzzles",
-                tech: "Canvas",
-                image: "/api/placeholder/300/200",
-                url: "https://chess.com"
+                title: "MadLibs Website",
+                description: "Junior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "madlib.png",
+                url: "https://sophiehornik.github.io/madlib/"
             },
-            {
-                title: "Music Player",
-                description: "Streaming music player with playlist functionality",
-                tech: "Web Audio",
-                image: "/api/placeholder/300/200",
-                url: "https://spotify.com"
+              {
+                title: "Career Website",
+                description: "Junior Year",
+                tech: "HTML,CSS,Bootstrap,JS",
+                image: "vet.png",
+                url: "https://sophiehornik.github.io/april24/"
             },
-            {
-                title: "Photo Gallery",
-                description: "Image gallery with filters, search, and organization",
-                tech: "CSS Grid",
-                image: "/api/placeholder/300/200",
-                url: "https://unsplash.com"
-            },
-            {
-                title: "Event Planner",
-                description: "Organize and manage events with calendar integration",
-                tech: "Calendar",
-                image: "/api/placeholder/300/200",
-                url: "https://eventbrite.com"
-            },
-            {
-                title: "Code Editor",
-                description: "Browser-based code editor with syntax highlighting",
-                tech: "CodeMirror",
-                image: "/api/placeholder/300/200",
-                url: "https://replit.com"
-            }
+            
         ];
 
         // Initialize Vue app
@@ -234,3 +221,18 @@
             }
         `;
         document.head.appendChild(style);
+         document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault(); // stop immediate navigation
+      const targetUrl = this.getAttribute('data-target');
+      const pageTurn = document.querySelector('.page-turn');
+
+      // Start animation
+      pageTurn.classList.add('active');
+
+      // Navigate after animation completes
+      setTimeout(() => {
+        window.location.href = targetUrl;
+      }, 600); // match the CSS transition duration
+    });
+  });
